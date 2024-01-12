@@ -1,0 +1,113 @@
+CONCEPTOS BASICOS:
+
+    * WEB: Modelo cliente-servidor donde el cliente hace consultas al servidor y el servidor responde
+           a esas consultas, el cliente muestra la pag web estructurada.
+
+    * MONOLITO: servidor.
+
+    * AMBIENTES: Produccion y desarrollo.
+
+    * MICROSERVICIOS: Se divide el servidor en varios "servidores" para mayor optimizacion de tareas y/o 
+                      peticiones.
+
+    * DEVOPS: Cultura de mejora continua en el desarrollo, las empresas lo transformaron en un rol dentro
+              del equipo de desarrollo, por lo que existe el especialista DevOps.
+
+    * DEVOPS ROL: Es un rol que usa herramientas, tecnicas y metodologias para ayudar a crear mejora continua
+                  en el desarrollo del software.
+
+    * TIPO DE EMPRESAS:
+        -Mantiene un software.
+        -Mantiene muchas apps.
+        -Da servicios DevOps.
+        -Mantiene muchas infraestructuras.(C)
+
+    * (C)IMPORTANTE (AUTOMATIZAR DESPLIEGUE DE INFRAESTRUCTURAS): Consiste en ejecutar un codigo que permita
+      la instalacion e integracion de todos los paquetes necesarios de forma automatica.
+
+
+TAREAS PRINCIPALES DEL DEVOPS:
+    *Automatizacion del despliegue.
+    *Automatizacion de infraestructura.
+    *Crear ambientes (copias) del ambiente de produccion.
+    *Agregar mas infraestructura a produccion para su optimizacion.
+    *Implementacion de herramientas de analisis y monitoreo.
+    *Implementacion de pruebas y seguridad.
+    *Ayudar en la automatizacion de procesos.
+
+
+
+
+
+/////////////-------------------CICLO DE VIDA DE UN PROYECTO-------------------///////////////////
+
+1. Planificacion: Se discute lo que se debe realizar y se deja constatado en documentos.
+2. Codigo: Desarrolladores toman las tareas y las ideas y se plasman en codigos funcionales.
+3. Build: Construccion de procesos automaticos que tomen el codigo de los desarroladores y lo compilen.
+4. Test: Toma el archivo compilado y le hace pruebas para garantizar la calidad.
+   Indica fallas y demas cosas. Si hay fallas el archivo compilado no continua.
+5. Release: Se guarda el archivo compilado.
+6. Deploy: Toma el archivo compilado y se despliega en una instancia o maquina virtual.
+7. Operate: Se construye o se mantiene la infraestructura que tiene dentro el software desplegado.
+8. Monitor: Toma la infraestructura y la analiza e indica la fiabilidad de la app desplegada.
+
+
+
+/////////////-------------------TIPOS DE PRUEBAS-------------------///////////////////
+
+    *Pruebas unitarias: Se realizan al codigo.
+    *Pruebas de integracion: Cuando se compila.
+    *Analisis: Dependencias y demas archivos que se guardan.
+    *Prueba de estres: En el deploy.
+
+
+//////////////-------------------HABILIDADES Y CONOCIMIENTOS NECESARIOS----------///////////////////
+
+    *Para este caso debo aprender las herramientas que ya estan siendo utilizadas en la empresa,
+     basado en la imagen Que_debo_aprender?, es una guia pero debo modificarlo a las necesidades de la 
+     empresa.
+
+    * El DevOps debe estar en la capacidad de comunicarse de manera acertiva y clara con los diversos equipos
+      que hay en la empresa, equipos de seguridad, de desarrollo, infraestructura y testing.
+    
+    *Administracion de carpetas (sistemas linux).
+
+    *Como gestionar paquetes y apps.
+
+    *Como gestionar variables de entorno.
+
+    *Manipulacion de archivos.
+
+    *Conocer comandos de construccion de apps (builds).
+
+    *Como leer log de errores.
+
+    *Servidores web:
+        -Conceptos: Protocolos y puertos.
+
+        -Gestion de servidores: Crear, leer, logs y test.
+
+    *Servicios de la nube:
+        -Servicios basicos(VM, redes, storage).
+
+        -Conocimiento sobre gestion de permisos.
+        
+        -CLI cloud: Interfaz de linea de comandos.
+            Ejemplo (aws): aws s3 ls, devuelve la lista de los nombres de los repositorios.
+    
+    *Docker:
+        -Comandos de Docker.
+            *docker run: Construir un contenedor a partir de la imagen.
+            *docker pull: Para traer del docker registry la imagen.
+            *docker build: Construir una imagen a partir del Dockerfile.
+            *docker push: Subir la version nueva al registry.
+        -Crear Dockerfile.
+        -Saber manipular Docker registry.
+        -Leer logs de Docker.
+    
+    *Procesos de despliegue:
+        -Herramientas de orquestacion.
+        -Manipulacion de ambientes.
+        -Manipulacion de variables de entorno y secretos.
+        -Leer logs.
+
